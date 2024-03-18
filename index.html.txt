@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPY</title>
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+<link rel="shortcut icon" href=img src="{{asset('assets/img/favicon.png')}}" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <div class="header__inner">
+      <nav class="nav">
+        <button class="nav__cross" type="button">X</button>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Man</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Man</a>
+          </li>
+        </ul>
+        <ul class="nav__list1">
+        <li class="nav__list-item"><a href="#" class="nav__link1">T-shirt</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__link1">T-shirt</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__link1">T-shirt</a></li>  
+        <li class="nav__list-item"><a href="#" class="nav__link1">T-shirt</a></li>
+        </ul>
+        <ul class="nav__list2">
+        <li class="nav__list-item"><a href="#" class="nav__link2">T-shirt</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__link2">T-shirt</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__link2">T-shirt</a></li>  
+        <li class="nav__list-item"><a href="#" class="nav__link2">T-shirt</a></li>
+        </ul>
+      </nav>
+      <div class="header__left-side">
+        <button type="button" class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="" class="header__logo">COPY</a>
+      </div>
+      <div class="header__right-side">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">CART</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">SIGN UP</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>const nav = document.querySelector(".nav");
+const headerBurger = document.querySelector(".header__burger");
+const navCross = document.querySelector(".nav__cross");
+
+// вешаем событие, которе будет происходит при клике на бургер
+headerBurger.addEventListener("click", function(){
+  nav.style.left = "0";
+;})
+navCross.addEventListener("click", function(){
+    nav.style.left = "-100" + "%";
+  })</script>
+  </header>
+  <main class="main">
+    <div class="main__inner">
+        <a href="#" class="link__image"><img src="{{asset('assets/img/0.png')}}" alt="" width="550px"height="550px"></a>
+        <a href="#" class="link__image"><img src="{{asset('assets/img/0.png')}}" alt="" width="550px"height="550px"></a>
+    </div>
+    <div class="shope"><a href="#" class="link__image1"><img src="{{asset('assets/img/shope.png')}}" alt="" width="900px"height="900px"></a></div>
+  </main>
+  <footer class="footer">
+    <div class="footer__inner">
+        <div class="link">
+                <aside class="link__right-side">
+                        <ul class="footer__list">
+                        <li class="footer__item"><a href="#">about us</a></li>
+                        <li class="footer__item"><a href="#">cart</a></li>
+                        <li class="footer__item"><a href="#">instagram</a></li>
+                        <li class="footer__item"><a href="#">vk</a></li>
+                    </ul>
+                    </aside>
+            
+        </div>
+    </div>
+  </footer>       
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+        <div class="cart__product"><img src="{{asset('assets/img/0.png')}}" alt=""></div>
+    </div>
+</body>
+</html>
