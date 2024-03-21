@@ -258,6 +258,11 @@ body{
  .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: ;
-    
+    grid-gap: 40px;
+    margin: 100px 100px 0px 100px;
+    width: 100%;
+ }
+
+ .cart__product{
+    width: 50%;
  }
